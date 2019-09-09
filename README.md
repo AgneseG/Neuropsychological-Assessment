@@ -8,3 +8,6 @@ As there was a single JSON file for each patient and for each test (190 patients
 From there, analyses have followed using RStudio.
 
 Results have been summarised as to be presented to the neuropsychologists working at the project as both .csv files and .pptx files with useful visualisations.
+
+
+Have a look at the script "RAVLT_data_extraction.R" to have an example of how I extracted raw JSON data into a .csv file for one test, or look at "Slower_comparable_faster.R" to get an idea of how analyses were performed afterwards.
