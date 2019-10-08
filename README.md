@@ -7,7 +7,8 @@ I've been working on raw *JSON* data that are linked to personal patients' infor
 The main steps of the projects were the following:
 
 - As there was a single *JSON* file for each patient and for each test (190 patients, 17 tests), the first step was to extract useful information from the *JSON* data into *CSV* files. Analyses have followed using *RStudio*.
-The file `ExampleRawFile_OnePatient_OneTest.json` provides an example of the raw file for one patient and one test.
+
+- The file `ExampleRawFile_OnePatient_OneTest.json` provides an example of the raw file for one patient and one test.
 Have a look at the script `RAVLT_data_extraction.R` to have an example of how I extracted raw _JSON_ data into a _.csv_ file for one specific test.
 
 - `RAVLT_file_structure.png` shows the data structure of the *JSON* files for the test _RAVLT_.
