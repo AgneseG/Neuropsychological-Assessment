@@ -2,7 +2,9 @@
 
 This repository has been created to give an overview of my project at **UMC (Utrecht Medical Center)**.
 
-I've been working on raw *JSON* data that are linked to personal patients' information, therefore for privacy reasons these cannot be shared. The main steps of the projects were the following:
+I've been working on raw *JSON* data that are linked to personal patients' information, therefore for privacy reasons these cannot be shared. 
+
+The main steps of the projects were the following:
 
 - As there was a single *JSON* file for each patient and for each test (190 patients, 17 tests), the first step was to extract useful information from the *JSON* data into *CSV* files. From there, analyses have followed using *RStudio*.
 The file `ExampleRawFile_OnePatient_OneTest.json` provides an example of the raw file for one patient and one test.
