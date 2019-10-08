@@ -4,10 +4,10 @@ This repository has been created to give an overview of my project at **UMC (Utr
 
 As I've been working on raw JSON data that are linked to personal patients' information, these cannot be shared, as well as the final _.csv_ files with the new outcome measures created. 
 
-As there was a single JSON file for each patient and for each test (190 patients, 17 tests), the first step was to extract useful information from the JSON data into *CSV* files.
-From there, analyses have followed using RStudio.
+- As there was a single JSON file for each patient and for each test (190 patients, 17 tests), the first step was to extract useful information from the JSON data into *CSV* files.
+From there, analyses have followed using *RStudio*.
 
-Results have been summarised as to be presented to the neuropsychologists working at the project as both .csv files and .pptx files with useful visualisations.
+- Results have been summarised as to be presented to the neuropsychologists working at the project as both .csv files and .pptx files with useful visualisations.
 
 
-Have a look at the script `RAVLT_data_extraction.R` to have an example of how I extracted raw JSON data into a _.csv_ file for one test, or look at `Slower_comparable_faster.R` to get an idea of how analyses were performed afterwards.
+- Have a look at the script `RAVLT_data_extraction.R` to have an example of how I extracted raw JSON data into a _.csv_ file for one test, or look at `Slower_comparable_faster.R` to get an idea of how analyses were performed afterwards.
